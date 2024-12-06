@@ -81,6 +81,20 @@ body{
 
 /* ABOUT */
 
+.prodotti {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;     
+    text-align: center;      
+    height: 100vh;           
+    background-color: rgb(135, 146, 146); 
+    padding-top: 50px;       
+    box-sizing: border-box;  
+  }
+  .prodotti p{
+    margin-top: 20px;
+    font-size: 25px;
+  }
 
 /* ---------------------------------------- */
 /* FOOTER */

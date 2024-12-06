@@ -1,12 +1,11 @@
+import CardAbout from "../../components/CardAbout"
+import React from "react"
+
 export default function Prodotti (){
     return (
-        <section>
+        <section className="prodotti">
             <h1>Ecco i nostri prodotti:</h1>
-            <ul>
-                <li>Magliette</li>
-                <li>Pantaloni</li>
-                <li>Calzini</li>
-            </ul>
+            <CardAbout></CardAbout>
         </section>
     )
 }
