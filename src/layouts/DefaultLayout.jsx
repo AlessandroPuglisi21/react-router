@@ -1,11 +1,15 @@
 import { Outlet } from 'react-router-dom';
-import Nav from './Navbar';
+import Header from './Header';
+import Footer from './Footer';
 
 export default function DefaultLayout() {
   return (
     <div>
-      <Nav />
+      <Header></Header>
       <Outlet /> 
+      <Footer></Footer>
+      
+      
     </div>
   );
 }
