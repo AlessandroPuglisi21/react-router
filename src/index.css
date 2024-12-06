@@ -21,6 +21,7 @@ body{
 
 /* ------------------------------------- */
 
+/* HEADER */
 .header {
     display: flex;          
     justify-content: space-between; 
@@ -30,6 +31,9 @@ body{
     color: black;
   }
 
+  .header img {
+    width: 150px;
+  }
   
   .header div {
     font-size: 20px; 
@@ -51,3 +55,26 @@ body{
    padding: 5px;
   }
   
+  /* ------------------------------------- */
+
+  /* HOMEPAGE */
+
+  .homepage {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;     
+    text-align: center;      
+    height: 100vh;           
+    background-color: rgb(135, 146, 146); 
+    padding-top: 50px;       
+    box-sizing: border-box;  
+  }
+  .homepage p{
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  .homepage img {
+    border-radius: 20px;
+    margin-top: 50px;
+  }
+
