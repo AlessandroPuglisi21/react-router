@@ -176,3 +176,20 @@ body{
     transition: box-shadow 0.3s ease;
   }
   
+  /* ------------------------------ */
+
+  /* ERROR 404 */
+  .blank-layout{
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+  }
+
+  .back-home-button{
+    background-color: #34495e;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+  }
