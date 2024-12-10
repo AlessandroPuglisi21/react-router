@@ -7,6 +7,7 @@ import NotFound from "./pages/NotFound";
 import BlankLayout from "./layouts/BlankLayout";
 import Blog from "./pages/Blog";
 import PostsIndex from "./pages/posts";
+import PostsShow from "./pages/posts/Show";
 
 function App() {
   return (
@@ -14,14 +15,15 @@ function App() {
       <Routes>
         <Route element={<DefaultLayout />}>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />}></Route>
-          <Route path="/prodotti" element={<Prodotti />}></Route>
-          <Route path= '/blog' >
-            <Route index Component={PostsIndex}></Route>
+          <Route path="/about" element={<About />} />
+          <Route path="/prodotti" element={<Prodotti />} />
+          <Route path="/blog">
+            <Route index element={<PostsIndex />} />
+            <Route path=":id" element={<PostsShow />} />
           </Route>
         </Route>
         <Route element={<BlankLayout />}>
-          <Route path="*" Component={NotFound}></Route>
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>

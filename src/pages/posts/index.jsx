@@ -27,7 +27,7 @@ export default function PostsIndex() {
                 <ul className="card-container">
                     {posts.map(post => (
                         <li key={post.id}>
-                            <CardBlog post={post} />
+                            <CardBlog onDelete={() => fetchPosts()} post={post} />
                         </li>
                     ))}
                 </ul>
