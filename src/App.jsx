@@ -5,6 +5,8 @@ import About from "./pages/About";
 import Prodotti from "./pages/Prodotti";
 import NotFound from "./pages/NotFound";
 import BlankLayout from "./layouts/BlankLayout";
+import Blog from "./pages/Blog";
+import PostsIndex from "./pages/posts";
 
 function App() {
   return (
@@ -14,6 +16,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />}></Route>
           <Route path="/prodotti" element={<Prodotti />}></Route>
+          <Route path= '/blog' >
+            <Route index Component={PostsIndex}></Route>
+          </Route>
         </Route>
         <Route element={<BlankLayout />}>
           <Route path="*" Component={NotFound}></Route>

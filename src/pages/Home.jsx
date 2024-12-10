@@ -6,7 +6,7 @@ export default function Home() {
       </div>
       <div>
         <p>
-          Diglet SPA è l’azienda di riferimento per la cura e la gestione dei
+          Diglett SPA è l’azienda di riferimento per la cura e la gestione dei
           Pokémon Diglett. Con professionalità ed esperienza, offriamo servizi
           dedicati per garantire il benessere e lo sviluppo dei tuoi Diglett.
         </p>

@@ -5,7 +5,7 @@ export default function Footer() {
         <ul>
           <li>Contatti</li>
           <li>Termini di Servizio</li>
-          <li>Percé Diglet</li>
+          <li>Perché Diglett</li>
           <li>Percorso Evoluzione</li>
         </ul>
       </div>
