@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 400px;
     margin: 0.5rem;
-    background-color: #f5dede;
+    background-color: #f8f4f4;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -49,4 +49,12 @@
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 0.5rem;
+}
+
+.link{
+    background-color: #007BFF;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
 }
